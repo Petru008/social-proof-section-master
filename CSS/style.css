@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "League Spartan";
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+/****************/
+/* Style */
+/****************/
+
+.main_container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 15rem auto 3rem auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 0;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info--text {
+  max-width: 600px;
+  width: 40%;
+}
+
+.review--info {
+  max-width: 600px;
+  width: 60%;
+  padding: 0 0 0 8rem;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.paragraph {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: hsl(303, 10%, 53%);
+}
+
+.review,
+.review-1,
+.review-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 24%, 96%);
+  border-radius: 0.5em;
+  gap: 0.8rem;
+  margin: 1.5rem auto;
+  padding: 1rem 2rem;
+}
+
+.review {
+  max-width: 400px;
+  margin: 0;
+}
+
+.review-1 {
+  margin-left: 3.6rem;
+  max-width: 410px;
+}
+
+.review-2 {
+  max-width: 410px;
+  margin-left: 7rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  height: 300px;
+}
+
+.testimonials--card {
+  background-color: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 43%, 22%);
+  border-radius: 0.8em;
+  padding: 2.5rem;
+  max-height: 280px;
+}
+
+.icon--name--1 {
+  grid-column: 1;
+  max-height: 280px;
+  height: 75%;
+}
+
+.icon--name--2 {
+  grid-column: 2;
+  margin-top: 2rem;
+  height: 75%;
+}
+
+.icon--name--3 {
+  grid-column: 3;
+  margin-top: 4rem;
+  height: 75%;
+}
+
+.image {
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.buyer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto 1.7rem auto;
+}
+
+.name--info {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: hsl(300, 24%, 96%);
+  line-height: 1.5;
+}
+
+span {
+  font-size: 1.5rem;
+  color: hsl(333, 80%, 67%);
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: hsl(300, 24%, 96%);
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
