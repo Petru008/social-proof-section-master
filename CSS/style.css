@@ -19,6 +19,10 @@ body {
 /* Style */
 /****************/
 
+body {
+  background-color: red;
+}
+
 .main_container {
   max-width: 1200px;
   width: 100%;
@@ -72,6 +76,11 @@ h1 {
   gap: 0.8rem;
   margin: 1.5rem auto;
   padding: 1rem 2rem;
+}
+
+.icon {
+  height: 1.7rem;
+  width: 1.7rem;
 }
 
 .review {
@@ -129,6 +138,7 @@ h2 {
 
 .image {
   height: 3.5rem;
+  width: 3.5rem;
   border-radius: 50%;
 }
 
