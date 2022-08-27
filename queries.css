@@ -1,0 +1,338 @@
+/* Max-width:1057px */
+@media (max-width: 66em) {
+  .main_container {
+    max-width: 850px;
+    padding: 7rem;
+  }
+
+  .info--text {
+    max-width: 425px;
+  }
+
+  .review--info {
+    max-width: 425px;
+    padding: 0 0 0 4rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .paragraph {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .review,
+  .review-1,
+  .review-2 {
+    gap: 0.5rem;
+  }
+
+  .review {
+    max-width: 300px;
+  }
+
+  .review-1 {
+    max-width: 300px;
+    margin-left: 3rem;
+  }
+
+  .review-2 {
+    max-width: 300px;
+    margin-left: 5rem;
+  }
+
+  .icon {
+    height: 1.2rem;
+  }
+
+  .image {
+    height: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  span {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Max-width:770px */
+@media (max-width: 48.9em) {
+  .main_container {
+    max-width: 650px;
+    padding: 5rem;
+  }
+
+  .info--text {
+    max-width: 325px;
+  }
+
+  .review--info {
+    max-width: 325px;
+    padding: 0 0 0 3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  .review,
+  .review-1,
+  .review-2 {
+    gap: 0.3rem;
+  }
+
+  .review {
+    max-width: 230px;
+  }
+
+  .review-1 {
+    max-width: 240px;
+    margin-left: 1.7rem;
+  }
+
+  .review-2 {
+    max-width: 240px;
+    margin-left: 4rem;
+  }
+
+  .testimonials {
+    gap: 2rem;
+  }
+
+  .testimonials--card {
+    padding: 2rem;
+    max-height: 220px;
+  }
+
+  .buyer {
+    margin: 0 auto 1.5rem auto;
+  }
+
+  .icon {
+    height: 1rem;
+  }
+
+  .image {
+    height: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Max-width:600px */
+@media (max-width: 37.5em) {
+  .main_container {
+    max-width: 480px;
+    padding: 4rem;
+  }
+
+  .info--text {
+    max-width: 225px;
+  }
+
+  .review--info {
+    max-width: 225px;
+    padding: 0 0 0 3rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  .review,
+  .review-1,
+  .review-2 {
+    gap: 0.3rem;
+  }
+
+  .review {
+    max-width: 150px;
+  }
+
+  .review-1 {
+    max-width: 150px;
+    margin-left: 1.5rem;
+  }
+
+  .review-2 {
+    max-width: 150px;
+    margin-left: 4rem;
+  }
+
+  .testimonials {
+    gap: 1.5rem;
+  }
+
+  .testimonials--card {
+    padding: 2rem;
+    max-height: 180px;
+  }
+
+  .buyer {
+    margin: 0 auto 1.5rem auto;
+  }
+
+  .icon {
+    height: 1rem;
+  }
+
+  .image {
+    height: 1.7rem;
+  }
+
+  .name--info {
+    padding: 0 1rem;
+  }
+
+  h3 {
+    font-size: 0.7em;
+  }
+
+  span {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Mobile Navigation */
+
+@media (max-width: 23.5em) {
+  .main_container {
+    display: inline-block;
+    padding: 2rem;
+    height: 1350px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info--text {
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .review--info {
+    max-width: 350px;
+    width: 100%;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+    text-align: center;
+  }
+
+  .paragraph {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .review,
+  .review-1,
+  .review-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    margin: 1.5rem auto;
+    border-radius: 1em;
+  }
+
+  .star {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .icon {
+    height: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .testimonials--card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    max-height: fit-content;
+    height: 100%;
+  }
+
+  .buyer {
+    margin: 0 auto 2rem auto;
+  }
+
+  .name--info {
+    margin: 0 1.2rem;
+  }
+
+  .image {
+    height: 3.5rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  span {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+}
